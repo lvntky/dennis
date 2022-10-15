@@ -35,7 +35,7 @@ static int skip()
 {
 	int c; 
 	c = next();
-	while(c == ' ' || c == '\t' || c == '\n' ||  c == '/r' || c == '\f') {
+	while(c == ' ' || c == '\t' || c == '\n' ||  c == '\r' || c == '\f') {
 		c = next();
 	}
 	return c;
