@@ -34,6 +34,13 @@ and run the SCC.
 
 ## Versioning
 
+## DevLog's
+The development process and explanation can be watched on YouTube
+
+---
+
+[YouTube Link Will Added Soon](https://www.youtube.com/@leventkayadev)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
