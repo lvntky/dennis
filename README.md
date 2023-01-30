@@ -37,9 +37,7 @@ and run the SCC.
 ## DevLog's
 The development process and explanation can be watched on YouTube
 
----
-
-[YouTube Link Will Added Soon](https://www.youtube.com/@leventkayadev)
+* [YouTube Link Will Added Soon](https://www.youtube.com/@leventkayadev)
 
 ## License
 
