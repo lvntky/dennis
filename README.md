@@ -30,6 +30,14 @@ make
 ```
 and run the SCC.
 
+### Platform Support
+
+| *TARGETS* | *386* | *ARM* | *x86-64* |
+|-----------|-------|-------|----------|
+| Linux     | NO    | NO    | YES      |
+| Windows   | NO    | NO    | NO       |
+| MacOs     | NO    | NO    | NO       |
+
 ## Running the tests
 
 ## Versioning
