@@ -45,11 +45,15 @@ To compile this program using SCC, run the following command:
 ```
 $ ./scc hello.c -o hello
 ```
+
 This will generate an executable file named hello. To execute the compiled program, use the following command:
+
 ```
 $ ./hello
 ```
+
 The output should be:
+
 ```
 Hello, world!
 ```
