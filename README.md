@@ -75,8 +75,8 @@ SCC is licensed under the MIT License. Feel free to use, modify, and distribute 
 
 ## Acknowledgements
 
-SCC is inspired by various open-source C compilers and the passion of the programming community. We would like to express our gratitude to all the contributors and maintainers of the projects that have influenced SCC.
+SCC is inspired by various open-source C compilers and the passion of the programming community. I would like to express my gratitude to all the contributors and maintainers of the projects that have influenced SCC.
 
 ## Contact
 
-If you have any questions, suggestions, or feedback regarding SCC, please contact the project maintainers at leventkayadev@gmail.com. We appreciate your interest in the project and look forward to hearing from you!
+If you have any questions, suggestions, or feedback regarding SCC, please contact the project maintainer at leventkayadev@gmail.com 
