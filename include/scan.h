@@ -1,30 +1,34 @@
 /*
   08.2023 Levent Kaya
   Scanner declerations
- */
+*/
 
 #ifndef __SCAN_H__
 #define __SCAN_H__
 
+
 #include "definitions.h"
-#include "data.h"
 #include <string.h>
 
 /*detect the current charactyet position*/
-static int character_position(char *, int);
+int character_position(char *, int);
 
 /*get the next character from source code*/
-static int next_character();
+int next_character();
 
 /*skip the unwanted character*/
-static int skip(void);
+int skip(void);
 
 /*Scanner function*/
 int scan(token *);
 
 /* put back the unwanted character*/
-static void put_back(int);
+void put_back(int);
 
-static int scan_int(int);
+int scan_int(int);
+
+void init_scanner();
+
+void scan_debugger();
 
 #endif

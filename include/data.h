@@ -1,14 +1,8 @@
-#ifndef __DATA_H__
-#define __DATA_H__
+#ifndef DATA_H
+#define DATA_H
 
-#ifndef _extern
-#define _extern extern
-#endif
+extern int Line;
+extern int Putback;
+extern FILE *Infile;
 
-#include <stdio.h>
-
-_extern int LINE;
-_extern int PUTBACK;
-_extern FILE* INFILE;
-
-#endif
+#endif // DATA_H
