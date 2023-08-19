@@ -18,7 +18,7 @@ typedef struct token {
 } token;
 
 enum {
-    T_PLUS, T_MINUS, T_STAR, T_SLAST, T_INTLITERAL
+    T_PLUS, T_MINUS, T_STAR, T_SLASH, T_INTLITERAL
 };
 
 #endif
