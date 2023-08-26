@@ -1,5 +1,6 @@
 #include "../include/scan.h"
 #include "../include/data.h"
+#include <stdio.h>
 
 void init_scanner() {
   Line = 0;
@@ -84,19 +85,21 @@ int scan(struct token *t) {
       break;
     }
 
-    printf("Unrecognised character %c on line %d\n", c, Line);
+    printf("\nUnrecognised character %c on line %d\n", c, Line);
     exit(1);
   }
   return 1;
 }
 
 void scan_debugger() {
+  printf("====================================\n\tLexical Scan\n");
   char *tokstr[] = { "+", "-", "*", "/", "intlit" };
   token T;
   while (scan(&T)) {
-    printf("> TOKEN: %s\n", tokstr[T.token]);
+    printf("\nTOKEN: %s", tokstr[T.token]);
     if(T.token == T_INTLITERAL) {
-      printf("INTLIT: %d\n", T.int_value);
+      printf("\t==>\t%d", T.int_value);
     }
   }
+  printf("\n====================================");
 }
