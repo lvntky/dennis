@@ -75,7 +75,7 @@ dennis is licensed under the MIT License. Feel free to use, modify, and distribu
 
 ## Acknowledgements
 
-dennis is inspired by various open-source C compilers and the passion of the programming community. I would like to express my gratitude to all the contributors and maintainers of the projects that have influenced dennis.
+dennis is inspired by various open-source C compilers and the passion of the programming community. I would like to express my gratitude to all the contributors and maintainers of the projects that have influenced dennis. And also, to Dennis Ritchie ofcourse...
 
 ## Contact
 
